@@ -19,6 +19,7 @@
 
 <body>
     <!-- header -->
+
     <header class="header_area">
         <div id="logo"><img src="./이미지/img_logo_re_forest.png" alt="logo"></div>
 
@@ -40,11 +41,11 @@
                             <li><a href="#">세미나/연회</li>
                             <li><a href="#" class="cg_color">- 포레스트</li>
                             <li><a href="#" class="cg_color">- 레스트리</a></li>
-                            <li><a href="#" class="cg_color">세미나</a></li>
+                            <li><a href="#">세미나</a></li>
                             <li><a href="#" class="cg_color">- 세미나 문의</a></li>
                         </ul>
                     </li>
-                    <li><a href="#">편의시설</a>ddd
+                    <li><a href="#">편의시설</a>
                         <ul>
                             <li><a href="#">편의시설</a></li>
                             <li><a href="#" class="cg_color">- 스파 시설</a></li>
@@ -114,7 +115,7 @@
     </section>
 
     <!-- facility -->
-    <div class="swiper mySwiper" id="facility">
+    <div class="swiper facility Swiper" id="facility">
         <div class="facility text_wrap">
             <h1 class="maintext">Facility</h1>
             <h2 class="subtext">포레스트 리솜의 다양한 시설들을 만끽해보세요.</h2>
@@ -169,7 +170,7 @@
 
         <div class="rooms_container">
             <div class="rooms_content">
-                <div class="swiper mySwiper">
+                <div class="swiper room Swiper">
                     <div class="swiper-wrapper rooms">
                         <div class="swiper-slide">
                             <img src="./s25/s25 (4).jpg" alt="">
@@ -190,8 +191,18 @@
                     <!-- Add Pagination -->
                     <div class="swiper-pagination"></div>
                     <!-- Add Navigation -->
-                    <div class="swiper-button-next"></div>
-                    <div class="swiper-button-prev"></div>
+                    <div class="swiper-button-next">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512">
+                            <path
+                                d="M310.6 233.4c12.5 12.5 12.5 32.8 0 45.3l-192 192c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3L242.7 256 73.4 86.6c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0l192 192z" />
+                        </svg>
+                    </div>
+                    <div class="swiper-button-prev">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512">
+                            <path
+                                d="M9.4 233.4c-12.5 12.5-12.5 32.8 0 45.3l192 192c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L77.3 256 246.6 86.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0l-192 192z" />
+                        </svg>
+                    </div>
                 </div>
             </div>
             <div class="right_text">
@@ -256,6 +267,18 @@
                 </div>
             </div>
         </div>
+        <div class="swiper-button-next">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512">
+                <path
+                    d="M310.6 233.4c12.5 12.5 12.5 32.8 0 45.3l-192 192c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3L242.7 256 73.4 86.6c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0l192 192z" />
+            </svg>
+        </div>
+        <div class="swiper-button-prev">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512">
+                <path
+                    d="M9.4 233.4c-12.5 12.5-12.5 32.8 0 45.3l192 192c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L77.3 256 246.6 86.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0l-192 192z" />
+            </svg>
+        </div>
     </section>
     <!-- About -->
     <section id="about">
@@ -266,10 +289,10 @@
 
         <div class="about_wrap">
             <div class="about_box">
-                <div class="about_img">
+                <div class="about_img" data-aos="fade-right" data-aos-duration="1500">
                     <img src="./이미지/brand_s_ban01.jpg" alt="">
                 </div>
-                <div class="about_text_box">
+                <div class="about_text_box" data-aos="fade-left" data-aos-duration="1500">
                     <h1>Luxury</h1>
                     <h2>Experience Resom’s unique luxury</h2>
                     <p>최상의 편안함을 제공하는 고급 침구류,<br>
@@ -280,9 +303,9 @@
 
             <div class="about_box">
                 <div class="about_img">
-                    <img src="./이미지/brand_s_ban03.jpg" alt="">
+                    <img src="./이미지/brand_s_ban03.jpg" alt="" data-aos="fade-right" data-aos-duration="1500">
                 </div>
-                <div class="about_text_box">
+                <div class="about_text_box" data-aos="fade-left" data-aos-duration="1500">
                     <h1>Wellness</h1>
                     <h2>Heal in the embrace of nature</h2>
                     <p>일상으로 인해 누적되어 있는 심적, 육체적 피로를<br>
@@ -293,9 +316,9 @@
 
             <div class="about_box">
                 <div class="about_img">
-                    <img src="./이미지/img_re_main_membership.jpg" alt="">
+                    <img src="./이미지/img_re_main_membership.jpg" alt="" data-aos="fade-right" data-aos-duration="1500">
                 </div>
-                <div class="about_text_box">
+                <div class="about_text_box" data-aos="fade-left" data-aos-duration="1500">
                     <h1>Nature-Friendly</h1>
                     <h2>Heal in the embrace of nature</h2>
                     <p>포레스트 리솜만의 자연의 품속에서 평온함을 느껴보세요.<br>
@@ -388,10 +411,10 @@
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
 
     <script>
-        var swiper = new Swiper(".mySwiper", {
+        var swiper = new Swiper(".facility.Swiper", {
 
-            slidesPerView: 1,
-            spaceBetween: 500,
+            slidesPerView: 1.1,
+            spaceBetween: 30,
             loop: true,
             pagination: {   // 페이저 버튼 사용자 설정
                 el: '.swiper-pagination',  // 페이저 버튼을 담을 태그 설정
@@ -409,6 +432,26 @@
 
         });
 
+         var swiper = new Swiper(".room.Swiper", {
+
+                slidesPerView: 1,
+                spaceBetween: 0,
+                loop: true,
+                pagination: {   // 페이저 버튼 사용자 설정
+                    el: '.swiper-pagination',  // 페이저 버튼을 담을 태그 설정
+                    clickable: true,  // 버튼 클릭 여부
+                    type: 'fraction', // 버튼 모양 결정 "bullets", "fraction" 
+
+                    renderFraction: function (currentClass, totalClass) {
+                        return '<span class="' + currentClass + '"> </span> - <span class="' + totalClass + '"></span>';
+                    }
+                },
+                navigation: {
+                    nextEl: ".swiper-button-next",
+                    prevEl: ".swiper-button-prev",
+                },
+
+            });
     </script>
 </body>
 

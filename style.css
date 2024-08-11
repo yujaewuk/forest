@@ -1,26 +1,27 @@
 /* header */
 .header_area {
     display: flex;
-    position: fixed;    
+    /* position: fixed;     */
     align-items: center;
     justify-content: space-between;
     width: 100%;
-    padding: 0 120px;
-    color: #fff;
-    margin-top: 40px;
-    background: transparent;
-    
+    /* height: 0px; */
+    padding: 48px 120px;
+    color: #222;
     z-index: 9999;
+    border-bottom: 1px solid #222;
 }
 
 .header_area .rs_btn {
-    width: 180px;
-    height: 45px;
+    width: 120px;
+    height: 35px;
     background: #A6A6A6;
     display: flex;
     justify-content: center;
     align-items: center;
     transition: 0.3s;
+    font-size: 14px;
+    color: #fff;
 }
 
 .rs_btn:hover {
@@ -32,7 +33,7 @@
     position: absolute;
     top: 16px;
     right: 105px;
-    color: #fff;
+    color: #222;
     font-size: 12px;
 }
 
@@ -59,8 +60,8 @@
     /* width: 140px; */
     /* margin-right: 32px; */
     position: static;
-    color: #fff;
-    margin-top: 10px;
+    color: #222;
+    /* margin-top: 10px; */
     margin-right: 32px;
 }
 #menu>ul>li:nth-of-type(5){
@@ -76,11 +77,12 @@
     display: flex;
     /* justify-content: center; */
     padding: 20px 0;
+    background: #fff;
 }
 
 #menu>ul>li:hover>ul {
     opacity: 1;
-    visibility: visible;
+    visibility: visible; 
 }
 
 #menu>ul>li>ul>li {
@@ -215,7 +217,7 @@
 /* facility */
 
 #facility {
-    padding: 80px 260px 0;
+    padding: 80px 260px 80px;
 }
 
 .text_wrap {
@@ -273,8 +275,8 @@
     border-radius: 50%;
     width: 30px !important;
     height: 30px !important;
-    top: 100% !important;
-    transform: translateY(-50%);
+    top: 60% !important;
+    transform: translateY(-60%);
 }
 
 .swiper-button-prev {
@@ -282,7 +284,7 @@
 }
 
 .swiper-button-next {
-    right: 270px !important;
+    right: 385px !important;
 }
 
 .swiper-button-prev svg,
@@ -292,7 +294,7 @@
 }
 
 .swiper-pagination-fraction {
-    bottom: 55px !important;
+    /* bottom: 55px !important; */
 }
 
 /* ---------------------------------------- */
@@ -300,7 +302,7 @@
 /* rooms */
 #rooms {
     background: #E5DACA;
-    padding-bottom: 80px;
+    
 }
 
 .rooms.text_wrap {
@@ -311,6 +313,7 @@
 .rooms_container {
     display: flex;
     align-items: center;
+    padding-bottom: 80px;
 }
 
 .rooms_content {
@@ -384,6 +387,9 @@
 
 #rooms .swiper-button-prev {
     left: 930px !important;
+    top: 103% !important;
+        z-index: 10;
+            /* 높은 z-index 값 추가 */
 }
 
 #rooms .swiper-button-next {
@@ -391,7 +397,7 @@
 }
 
 .swiper-pagination {
-    position: static !important;
+    /* position: static !important; */
     color: #fff !important;
 }
 
